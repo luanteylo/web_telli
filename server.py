@@ -9,7 +9,7 @@ def foo(value):
 
 def do_operation(action, value):
     if len(value) != 2:
-        return "Error: To use that action you need to sent a list with two numbers"
+        return "Error: To use that action, you need to send a list with two numbers."
 
     if action == 'sum':
         response = value[0] + value[1]
