@@ -32,7 +32,7 @@ class Server(object):
 
     def send_task(self, id_robot, mission):
         robot_ip, robot_port = self.my_robots[id_robot]
-        robot_url = 'http://{}:{}/process'.format(robot_ip, robot_port)
+        robot_url = 'http://{}:{}/handle'.format(robot_ip, robot_port)
         data = {
             'mission': mission,
             'operation_type': self.get_operation(self.next_mission),
