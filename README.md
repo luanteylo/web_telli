@@ -1,6 +1,6 @@
 # WEB_TELLI
 
-A simple client-server example using json and cherrypy library
+A simple client-server example using json and the cherrypy library
 
 
 ## Getting Started
